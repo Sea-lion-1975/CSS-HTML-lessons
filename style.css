@@ -1,0 +1,35 @@
+body {
+    font: 16px/1.5em sans-serif;
+    color: rgb(36, 34, 34);
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    column-span:all;
+}
+.column-2 {
+    column-count: 2;
+    column-width: 300px;
+}
+.break {
+    break-inside: avoid;
+    background-color: #c2bdc2;
+
+    padding: 1.5em;
+    overflow-x: hidden;
+}
+button {
+    background-color: #5e5b5e;
+    width: 150px;
+    height: 2em;
+    font-size: large;
+    font-weight: bold;
+    margin: 0 20px;
+}
+button a {
+    color: #f5eeee;
+
+}
+.center {
+    text-align: center;
+}

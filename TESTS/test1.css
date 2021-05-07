@@ -1,0 +1,33 @@
+body {
+    font: 16px/1.5 sans-serif;
+}
+.news-column {
+    column-count: 3;
+    column-width: 250px;
+    column-gap: 1em;
+}
+.news-column h1 {
+    column-span:all;
+    text-align: center;
+    font-weight: bold;
+}
+.news {
+    break-inside: avoid;
+
+    background-color: blueviolet;
+    color: cornsilk;
+
+    padding: 20px;
+}
+.date {
+overflow: auto;
+}
+.hr-news {
+    overflow: auto;
+    font-weight: bold;
+}
+.cont-news {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
